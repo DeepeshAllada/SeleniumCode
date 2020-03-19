@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<!--  Since the parameter is defined at suite level so it will be like global variable and it will be applicable to all the classes in this testng_globalparameterization.xml file -->
+	
+	<parameter name="URL" value="qaclickacamedmy.com"/>
+  
+  <test name="Test">
+  <!--  You can also place the parameter under <test> so in that case only to the classes under that particular test, the parameters will be applicable -->
+    <classes>
+      <class name="Learn.ParameterizationExample"/>
+      <class name="Learn.AnnotationsTestNG"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

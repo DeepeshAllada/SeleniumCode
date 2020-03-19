@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Banking">
+	
+  <test name="Personal Loan">
+    <classes>
+      <class name="Learn.AnnotationsTestNG"/>
+      <class name="Learn.Newtestcase"/>
+      <class name="Learn.ListnersExample"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Auto Loan">
+    <classes>
+      <class name="Learn.AutoLoan">
+      <methods>
+      <exclude name="LoginMobile"/>
+
+      </methods>
+      </class>
+      <class name="Learn.HomeLoan"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Home Loan">
+    <classes>
+      <class name="Learn.HomeLoan">
+      <methods>
+      <include name="LoginMobile"/>
+
+      </methods>
+      </class>
+      <class name="Learn.HomeLoan"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

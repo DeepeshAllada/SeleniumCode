@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Learn.Newtestcase">
+        <methods>
+          <include name="cleanup"/>
+          <include name="afterclassfunction"/>
+          <include name="envVariableSetup"/>
+          <include name="beforeclassfunction"/>
+          <include name="Functionbefore"/>
+          <include name="Functionafter"/>
+          <include name="envVariabledestroy"/>
+        </methods>
+      </class> <!-- Learn.Newtestcase -->
+      <class name="Learn.AnnotationsTestNG">
+        <methods>
+          <include name="cleanup"/>
+        </methods>
+      </class> <!-- Learn.AnnotationsTestNG -->
+      <class name="Learn.GroupsExample">
+        <methods>
+          <include name="Functionbefore"/>
+          <include name="envVariableSetup"/>
+          <include name="Functionafter"/>
+          <include name="envVariabledestroy"/>
+        </methods>
+      </class> <!-- Learn.GroupsExample -->
+      <class name="Learn.ParameterizationExample">
+        <methods>
+          <include name="LoginAPI"/>
+        </methods>
+      </class> <!-- Learn.ParameterizationExample -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

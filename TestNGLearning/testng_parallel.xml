@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--  paralel=tests mean all the <class> under <test> will run in parallel with 2 parallel execution at one time-->
+
+
+<suite name="Suite" parallel="tests" thread-count="2">
+
+
+
+  <test name="Annotations">
+    <classes>
+
+      <class name="Learn.AnnotationsTestNG"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Home Loan">
+    <classes>
+
+      <class name="Learn.HomeLoan"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

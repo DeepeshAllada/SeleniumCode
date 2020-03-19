@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression">
+  <test name="Smoke testing">
+  <groups>
+  	<run>
+  		<include name="Smoke"/>
+  		<!--  if you want to run all the tests apart from smoke group then write exclude
+  				note : when you use groups, @BeforeSuite,@beforeTest,@beforeMethod will not be considered for execution -->
+  		<!-- <exclude name="Smoke"/>  -->
+  	</run>
+  </groups>
+    <classes>
+      <class name="Learn.GroupsExample"/>
+      <class name="Learn.AutoLoan"/>
+      <class name="Learn.HomeLoan"/>
+      <class name="Learn.Newtestcase"/>
+      <class name="Learn.AnnotationsTestNG"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
