@@ -21,7 +21,7 @@ public class PropertiesGlobalVariables {
 		FileInputStream fis=new FileInputStream("C:\\SeleniumWorkspaceNew\\TestNGLearning\\src\\Learn\\datadriving.properties");
 		//now integrate prop object with fis object
 		prop.load(fis);
-		
+		System.out.println("User1 : git changes");
 		System.out.println("Value of username from Properties file :"+ prop.getProperty("username"));
 	}
 	
