@@ -35,6 +35,7 @@ public class GroupsExample {
 	@BeforeMethod
 	public void Functionbefore() {
 		System.out.println("I am before method");
+		System.out.println("GIT changes : plz ignore");
 	}
 	
 	@AfterMethod
