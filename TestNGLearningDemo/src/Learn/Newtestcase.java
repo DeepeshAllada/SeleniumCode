@@ -15,6 +15,7 @@ public class Newtestcase {
 	@Test
 	public void loan() {
 		System.out.println("Loan test case");
+		System.out.println("GIt Demo");
 	}
 	@Test
 	public void loanApproval() {

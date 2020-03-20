@@ -12,6 +12,7 @@ public class SelfHealing {
 		CompareProperties.calculateWeightage();
 		ExtractData();
 		extractContentfromHtml("abc","123");
+		System.out.println(" This is to demo git changes");
 	}
 
 }
